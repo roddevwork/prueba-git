@@ -1,0 +1,57 @@
+/* ********** Custom Properties ********** */
+:root {
+  --black-color: #000;
+  --white-color: #fff;
+  --lightBlack-color: #333;
+  --lightGrey-color: #d3d3d3;
+  --yellowJs-color: #f7df1e;
+  --font-family: Arial, Helvetica, sans-serif;
+  --max-width: 1200px;
+}
+
+/* ********** Reset ********** */
+html {
+  box-sizing: border-box;
+  font-family: var(--font-family)
+  /*font-size: 62.5%; 10px=1rem */ 
+  font-size: 16px;
+   scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: var(--black-color);
+   color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+  
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1 {
+  color: crimson;
+}
